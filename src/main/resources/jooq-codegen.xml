@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <jdbc>
+        <driver>org.sqlite.JDBC</driver>
+        <url>jdbc:sqlite:C:/Users/Reha-TN/Desktop/Collection/Collection.db</url>
+<!--        <user>your_username</user>-->
+<!--        <password>your_password</password>-->
+    </jdbc>
+    <generator>
+        <database>
+            <includes>.*</includes>
+        </database>
+        <target>
+            <packageName>com.Bartalsky.Collection.Manager</packageName>
+            <directory>src/main/java</directory>
+        </target>
+    </generator>
+</configuration>
