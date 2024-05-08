@@ -1,0 +1,4 @@
+
+ù
+java:S1598"âThis file "SQLQueryWriter.java" should be located in "com\Bartalsky\Collection\Manager\SQLService" directory, not in "C:\Users\Reha-TN\Desktop\JavaP\Collection-Manager\src\main\java\com\Bartalsky\CollectionManager\SQLService".(þÞÒ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(þÞÒ
