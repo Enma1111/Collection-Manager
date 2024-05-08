@@ -1,4 +1,4 @@
-package com.Bartalsky.CollectionManager;
+package com.Bartalsky.Collection.Manager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
