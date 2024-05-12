@@ -1,5 +1,10 @@
 package com.Bartalsky.Collection.Manager.Data;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.jooq.DSLContext;
+import org.jooq.Result;
+import org.jooq.Record;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,17 +32,26 @@ public class DatabaseConnection {
         this.preparedStatementHelper = preparedStatementHelper;
     }
 
-    public Document dataRead(String query){
+    @Autowired
+    private DSLContext dslContext;
 
-        try(Connection connection = DriverManager.getConnection(URL)) {
-            PreparedStatement preparedStatement = connection.prepareStatement(query);
-            ResultSet resultSet = preparedStatement.executeQuery();
+    @Autowired
+    private ObjectMapper objectMapper;
 
-            return xmlParser.createXml(resultSet);
+    public String dataRead(String tableName) throws JsonProcessingException {
 
-        } catch (SQLException | TransformerException | ParserConfigurationException e) {
-            throw new RuntimeException(e);
-        }
+        Result<Record> result = dslContext.select().from(tableName).fetch();
+
+        return objectMapper.writeValueAsString(result);
+//        try(Connection connection = DriverManager.getConnection(URL)) {
+//            PreparedStatement preparedStatement = connection.prepareStatement(query);
+//            ResultSet resultSet = preparedStatement.executeQuery();
+//
+//            return xmlParser.createXml(resultSet);
+//
+//        } catch (SQLException | TransformerException | ParserConfigurationException e) {
+//            throw new RuntimeException(e);
+//        }
     }
 
     public void dataWrite(String query, String[] values)  {

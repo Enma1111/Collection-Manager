@@ -1,6 +1,11 @@
-package com.Bartalsky.Collection.Manager.ViewManager;
+package com.Bartalsky.Collection.Manager.MainController;
 
 
+import com.Bartalsky.Collection.Manager.Data.DatabaseConnection;
+import com.Bartalsky.Collection.Manager.SQLService.SQLQueryWriter;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,22 +13,18 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.w3c.dom.Document;
 
 import java.io.IOException;
-@Controller
+@Component
 public class ViewController {
 
-    @GetMapping("/start")
-    public void start() {
-//        comicTableConfigurator.comicViewInitialize(tblComic,txtSearch);
-//        tableIInitiator.initialize(tblComic,table, dataReadWrite.dataRead(sqlWriteQuery.readQuery(table)));
-//
-//        txtSearch.textProperty().addListener((observable, oldValue, newValue) -> {
-//            if(!newValue.isEmpty()) {
-//                logger.info(oldValue);
-//                query = sqlWriteQuery.searchQuery(newValue);
-//                search.performSearch(query,tblComic);
-//                logger.info(newValue);
-//            }
-//        });
+    private final DatabaseConnection databaseConnection;
+
+    @Autowired
+    public ViewController(DatabaseConnection databaseConnection) {
+        this.databaseConnection = databaseConnection;
+    }
+
+    public String load(String tableName) throws JsonProcessingException {
+        return databaseConnection.dataRead(tableName);
     }
 
     @GetMapping("/save")

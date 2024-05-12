@@ -1,8 +1,6 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-|
-Lsrc/main/java/com/Bartalsky/CollectionManager/SQLService/SQLQueryWriter.java,6\7\672d78ae14609b13a53054676d208c19b2cf66da
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 w
@@ -12,13 +10,7 @@ G.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,8\6\86
 Å
 Q.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,1\0\10a03f31c4dce92cb371e761ce9429428bb6c176
 Å
-Q.idea/sonarlint/securityhotspotstore/6/7/672d78ae14609b13a53054676d208c19b2cf66da,3\4\34387d0c0f6b9df9e3c7c90372cbdade53414a61
-Å
 Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,2\c\2cabb939da04d3de3a200bf2b575690e1a16316d
-}
-Msrc/main/java/com/Bartalsky/CollectionManager/ViewManager/ViewController.java,e\b\ebb071bdd99bc7b9445cf4911a4382884e9f6858
-~
-Nsrc/main/java/com/Bartalsky/Collection/Manager/ViewManager/ViewController.java,c\b\cbd8dc0536e15f491a05046689a8f39575148020
 }
 Msrc/main/java/com/Bartalsky/Collection/Manager/SQLService/SQLQueryWriter.java,9\6\963c6ad5d539bdff612f20869dbfc154607db081
 w
@@ -37,3 +29,9 @@ Hsrc/main/java/com/Bartalsky/Collection/Manager/Helper/WarningHelper.java,d\4\d
 Usrc/test/java/com/Bartalsky/Collection/Manager/CollectionManagerApplicationTests.java,5\9\59929798f8c2e8a62ea53c37be68f0fc053f4940
 Ç
 Rsrc/main/java/com/Bartalsky/Collection/Manager/Helper/PreparedStatementHelper.java,2\3\23915aaf257a17aecb9db952e305229d0984550a
+Ç
+Rsrc/main/java/com/Bartalsky/Collection/Manager/ViewController/ComicController.java,6\f\6fa56266a632ff2411ee4338ed2e22268d70b1c2
+Å
+Qsrc/main/java/com/Bartalsky/Collection/Manager/MainController/ViewController.java,1\3\13979e61370b6053bf5142ae617e26b4f34052c1
+w
+Gsrc/main/java/com/Bartalsky/Collection/Manager/AppConfig/AppConfig.java,4\6\46a72866a06d158a82848a5aef13c019a7a51860
