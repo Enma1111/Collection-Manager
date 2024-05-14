@@ -1,0 +1,6 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Åþ“×þÿÿÿÿ
+w
+java:S4144 "aUpdate this method so that its implementation is not identical to "movieValueChecker" on line 24.(ÛØ÷¦
+L
+java:S6880"6Replace the chain of if/else with a switch expression.(«ÿˆÎ
