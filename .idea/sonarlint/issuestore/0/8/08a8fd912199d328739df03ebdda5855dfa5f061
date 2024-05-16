@@ -1,6 +1,2 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šŸÀ§øÿÿÿÿ
-c	java:S116"NRename this field "URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎôşÑ
-7
-java:S1170"!Make this final field static too.(ÎôşÑ
-V	java:S125"<This block of commented-out lines of code should be removed.(­‡Ğşÿÿÿÿ
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(²¿¨üÿÿÿÿ8¡àò‹ø1J$e1e2461d-9fae-435d-bd01-89806ab7aae1

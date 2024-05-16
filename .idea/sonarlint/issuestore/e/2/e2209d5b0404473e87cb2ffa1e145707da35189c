@@ -1,12 +1,2 @@
 
-†	java:S112C"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$30e60d2e-6a00-4ab0-b788-e7e338fb1da7
-†	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$39586a95-fc8b-423e-9ae1-82914a0a851c
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( ¡¯˜J$7e380076-335e-4081-852e-2dcdbdfdc30c
-…
-java:S6813#"BRemove this field injection and use constructor injection instead.(êæÄÞ8Õòçº÷1J$67bc9f7c-c4f0-47f7-8b07-2c2e75b65bae
-…
-java:S6813&"BRemove this field injection and use constructor injection instead.(êæÄÞ8Öòçº÷1J$c0973454-6602-458c-9b3e-23b23a8824c6
-|	java:S125"<This block of commented-out lines of code should be removed.(–¶òÐÿÿÿÿÿJ$f6db8fd6-802b-4a7d-959a-bf37cb7af9e5
-ƒ	java:S125."<This block of commented-out lines of code should be removed.(’Ó£ôùÿÿÿÿ8óçº÷1J$82024988-2e77-4f72-98e4-70ad67133132
-o
-java:S1068"-Remove this unused "xmlParser" private field.(•™ú8·óçº÷1J$7516aa14-5544-4005-9a56-c7bfc1fb1f12
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ö¥Ž¼ÿÿÿÿÿ8ƒÕê‹ø1J$19231e01-802b-4903-9e8c-ac4ab15ea653

@@ -1,0 +1,20 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦™ùÖ8§Œ¦‹ø1J$daa55ed6-478a-4775-9e11-c81e4dcd653c
+~	java:S125"<This block of commented-out lines of code should be removed.(€Ïù8­Œ¦‹ø1J$7ae5c316-2b62-4b3d-b4ae-3752b1fc75d1
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(Àç‚Öüÿÿÿÿ8®Œ¦‹ø1J$4a804e62-9679-4251-94dc-d446180e0c94
+~	java:S1257"<This block of commented-out lines of code should be removed.(‚²…‹8²Œ¦‹ø1J$4fed9d26-c32f-47ad-bb0e-14de98cfc64d
+ƒ	java:S125I"<This block of commented-out lines of code should be removed.(Ç§¾ûøÿÿÿÿ8³Œ¦‹ø1J$fdf546de-4d1a-42ec-aa29-51999c44828b
+}	java:S125W"<This block of commented-out lines of code should be removed.(øêÚ;8´Œ¦‹ø1J$30aa50f2-7109-49c3-9ce8-9023beb02ff0
+~	java:S125`"<This block of commented-out lines of code should be removed.(ƒ¥¤8´Œ¦‹ø1J$3e9dbe45-1aa7-4cfe-9303-cbba0d909cba
+ƒ	java:S125k"<This block of commented-out lines of code should be removed.(åÞ˜õýÿÿÿÿ8µŒ¦‹ø1J$6de3220b-23e8-4335-86e5-bfb90e7eb38c
+y
+java:S1128"WRemove this unused import 'com.Bartalsky.Collection.Manager.SQLService.SQLQueryWriter'.(¡¶î˜úÿÿÿÿ8†×­ø1
+q
+java:S1128"ORemove this unused import 'com.fasterxml.jackson.core.JsonProcessingException'.(ßÔïÇûÿÿÿÿ8†×­ø1
+[
+java:S1128
+"9Remove this unused import 'org.jooq.SelectConditionStep'.(ÆÃÍ¾øÿÿÿÿ8†×­ø1
+h
+java:S1128"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8†×­ø1
+N
+java:S1128"1Remove this unused import 'org.w3c.dom.Document'.(Á§²“8†×­ø1
